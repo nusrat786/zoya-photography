@@ -1,0 +1,173 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  background: #eee;
+  height: auto;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  /*box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+    -30px 0px 40px rgba(0, 0, 0, 0.1);*/
+    box-shadow: 40px 10px 50px rgba(0, 0, 0, 0.2),
+    -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+.landing {
+	
+	background-color: #f0f5f5;
+}
+
+.photo{
+	display: flex;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 40vw;
+	height: 50vh;
+	text-align: center;
+	justify-content: center;
+  	align-items: center;
+  	padding-right: 1rem;
+  	padding-left: 1rem;
+
+}
+
+h1{
+	color: #0f3d3d;
+	font-weight: 400;
+	font-size: 50px;
+}
+
+.inner-photo > p{
+	font-weight: 400;
+	font-size: 20px;
+
+}
+
+
+.btn{
+	
+  padding: 0.5rem 2rem;
+  border: 1px #ccc solid;
+  display: inline-block;
+  margin: 2rem 0 0;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  transition: background 500ms ease;
+}
+
+
+.btn:hover{
+	background-color: #f4f4f4; 
+}
+
+.image{
+
+	background: url("photo-1488684430052-f2d92fb178c2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 60vw;
+	height: 50vh;
+	margin: 0px;
+
+
+}
+
+.photos {
+	
+	height:auto;
+	margin: auto;
+}
+
+#work {
+	padding: 25px;
+  	text-align: center;
+  	background-color: #333;
+  	color: #fff;
+}
+
+#work > h2{
+	border-left: dotted 1px #fff;
+  	border-right: dotted 1px #fff;
+  	display: inline-block;
+  	padding-right: 1rem;
+  	padding-left: 1rem;
+
+}
+
+
+
+img{
+
+	display: block;
+    width: 100%;
+    
+}
+
+
+
+#pics  {
+	
+	text-align: center;
+	margin: auto;
+	padding: 8px 0px;
+
+
+}
+
+footer{
+	text-align: center;
+	margin: auto;
+}
+footer > p{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.other-links > a{
+ 	padding-right: 10px;
+ 	color: #004d4d;
+ 	padding-bottom: 20px;
+ }
+
+
+.fa{
+   
+    
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 2.5;
+
+    font-weight: 900;
+
+}
+
+/* Screen Sizes 500px and Up */
+@media (min-width: 500px) {
+  .landing {
+    display: flex;
+    height: 100%;
+  }
+
+  .photo {
+    height: 100vh;
+  }
+
+  .image {
+    height: 100vh;
+  }
+}
+
+
+
+
